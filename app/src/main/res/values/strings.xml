@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kurtlu</string>
+    <string name="title_activity_locations">LocationsActivity</string>
+    <string name="title_home">Anasayfa</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Bildirimler</string>
+    <string name="tab_text_1">Yerlerim</string>
+    <string name="tab_text_2">Yer Ekle</string>
+    <string name="title_activity_maps">Harita</string>
+</resources>

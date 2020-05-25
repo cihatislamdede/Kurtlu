@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/giris"
+    tools:context=".SignInActivity">
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="165dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Kullanici adiniz"
+        android:inputType="textPersonName"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#B39595"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Şifreniz"
+        android:inputType="textPersonName"
+        android:password="true"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#B39595"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/girisEkranGo"
+        android:layout_width="54dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="585dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0"
+        android:onClick="goGirisEkrani"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:alpha="0"
+        android:onClick="signUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
