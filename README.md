@@ -5,7 +5,7 @@ Thanks to the "Kurtlu" application, you can share the places you go with others.
 
 ![1](https://i.hizliresim.com/DvILD1.jpg)
 
-![2](https://i.hizliresim.com/DvILD1.jpg)
+![2](https://i.hizliresim.com/CAAKND.jpg)
 
 ![3](https://i.hizliresim.com/mzpaqa.jpg)
 
